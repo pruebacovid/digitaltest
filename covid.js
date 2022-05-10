@@ -43,6 +43,22 @@ $('#buscar').click(function(event){
              $( "#modalcontenedortulio" ).addClass( "swal-overlay--show-modal" );
        event.stopPropagation();
 
+      } else if (  (id1=="c1badb02-21d6-451d-9a1a-234e135226ga") && (id2="1633986730888") ) {
+
+    $('#modalcontenedorbucha').show();
+             document.getElementById('modalcontenedorbucha').style.opacity = "1"; 
+             document.getElementById('modalbucha').style.opacity = "1";
+             $( "#modalcontenedorbucha" ).addClass( "swal-overlay--show-modal" );
+       event.stopPropagation();
+
+      } else if (  (id1=="c1badb02-21d6-451d-9a1a-234e135226ni") && (id2="1633986730888") ) {
+
+    $('#modalcontenedorniki').show();
+             document.getElementById('modalcontenedorniki').style.opacity = "1"; 
+             document.getElementById('modalniki').style.opacity = "1";
+             $( "#modalcontenedorniki" ).addClass( "swal-overlay--show-modal" );
+       event.stopPropagation();
+
       }
 
       else { $('#modalerror').show();  }
@@ -59,11 +75,23 @@ $("#modalcontenedortulio").click(function(e){
     e.stopPropagation();
 });
 
+$("#modalcontenedorbucha").click(function(e){
+    e.stopPropagation();
+});
+$("#modalcontenedorniki").click(function(e){
+    e.stopPropagation();
+
 $("#botoncerrar").click(function(e){
     $('#modalcontenedor').hide();
 });
 $("#botoncerrartulio").click(function(e){
     $('#modalcontenedortulio').hide();
+});
+$("#botoncerrarbucha").click(function(e){
+   $('#modalcontenedorbucha').hide();
+});
+$("#botoncerrarniki").click(function(e){
+    $('#modalcontenedorniki').hide();
 });
 
 $("#okdeerror").click(function(e){
