@@ -80,7 +80,7 @@ $("#modalcontenedorbucha").click(function(e){
 });
 $("#modalcontenedorniki").click(function(e){
     e.stopPropagation();
-
+});
 $("#botoncerrar").click(function(e){
     $('#modalcontenedor').hide();
 });
