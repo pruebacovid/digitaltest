@@ -105,7 +105,7 @@ $("#botoncerrarniki").click(function(e){
     $('#modalcontenedorniki').hide();
 });
 $("#botoncerrarjosex").click(function(e){
-    $('#modalcontenedorniki').hide();
+    $('#modalcontenedorjosex').hide();
 });
 
 $("#okdeerror").click(function(e){
