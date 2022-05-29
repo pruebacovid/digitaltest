@@ -59,6 +59,14 @@ $('#buscar').click(function(event){
              $( "#modalcontenedorniki" ).addClass( "swal-overlay--show-modal" );
        event.stopPropagation();
 
+      } else if (  (id1=="c1badb02-21d6-451d-9a1a-234e135226jo") && (id2="1633986730888") ) {
+
+    $('#modalcontenedorjosex').show();
+             document.getElementById('modalcontenedorjosex').style.opacity = "1"; 
+             document.getElementById('modaljosex').style.opacity = "1";
+             $( "#modalcontenedorjosex" ).addClass( "swal-overlay--show-modal" );
+       event.stopPropagation();
+
       }
 
       else { $('#modalerror').show();  }
@@ -81,6 +89,9 @@ $("#modalcontenedorbucha").click(function(e){
 $("#modalcontenedorniki").click(function(e){
     e.stopPropagation();
 });
+$("#modalcontenedorjosex").click(function(e){
+    e.stopPropagation();
+});
 $("#botoncerrar").click(function(e){
     $('#modalcontenedor').hide();
 });
@@ -91,6 +102,9 @@ $("#botoncerrarbucha").click(function(e){
    $('#modalcontenedorbucha').hide();
 });
 $("#botoncerrarniki").click(function(e){
+    $('#modalcontenedorniki').hide();
+});
+$("#botoncerrarjosex").click(function(e){
     $('#modalcontenedorniki').hide();
 });
 
