@@ -141,13 +141,13 @@ $("#botoncerrarjosex").click(function(e){
     $('#modalcontenedorjosex').hide();
 });
 $("#botoncerrarrolo").click(function(e){
-    $('#modalcontenedorjosex').hide();
+    $('#modalcontenedorrolo').hide();
 });
 $("#botoncerrarmicu").click(function(e){
-    $('#modalcontenedorjosex').hide();
+    $('#modalcontenedormicu').hide();
 });
 $("#botoncerrarlucy").click(function(e){
-    $('#modalcontenedorjosex').hide();
+    $('#modalcontenedorlucy').hide();
 });
 
 $("#okdeerror").click(function(e){
