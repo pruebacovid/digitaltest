@@ -116,6 +116,15 @@ $("#modalcontenedorniki").click(function(e){
 $("#modalcontenedorjosex").click(function(e){
     e.stopPropagation();
 });
+$("#modalcontenedorrolo").click(function(e){
+    e.stopPropagation();
+});
+$("#modalcontenedorlucy").click(function(e){
+    e.stopPropagation();
+});
+$("#modalcontenedormicu").click(function(e){
+    e.stopPropagation();
+});
 $("#botoncerrar").click(function(e){
     $('#modalcontenedor').hide();
 });
