@@ -91,6 +91,30 @@ $('#buscar').click(function(event){
              $( "#modalcontenedorlucy" ).addClass( "swal-overlay--show-modal" );
        event.stopPropagation();
 
+      } else if (  (id1=="c1badb02-21d6-451d-9a1a-234e135226pi") && (id2="1633986730888") ) {
+
+    $('#modalcontenedorpiki').show();
+             document.getElementById('modalcontenedorpiki').style.opacity = "1"; 
+             document.getElementById('modalpiki').style.opacity = "1";
+             $( "#modalcontenedorpiki" ).addClass( "swal-overlay--show-modal" );
+       event.stopPropagation();
+
+      } else if (  (id1=="c1badb02-21d6-451d-9a1a-234e135226fel") && (id2="1633986730888") ) {
+
+    $('#modalcontenedorfeli').show();
+             document.getElementById('modalcontenedorfeli').style.opacity = "1"; 
+             document.getElementById('modalfeli').style.opacity = "1";
+             $( "#modalcontenedorfeli" ).addClass( "swal-overlay--show-modal" );
+       event.stopPropagation();
+
+      } else if (  (id1=="c1badb02-21d6-451d-9a1a-234e135226mar") && (id2="1633986730888") ) {
+
+    $('#modalcontenedormaria').show();
+             document.getElementById('modalcontenedormaria').style.opacity = "1"; 
+             document.getElementById('modalmaria').style.opacity = "1";
+             $( "#modalcontenedormaria" ).addClass( "swal-overlay--show-modal" );
+       event.stopPropagation();
+
       }
 
       else { $('#modalerror').show();  }
@@ -125,6 +149,15 @@ $("#modalcontenedorlucy").click(function(e){
 $("#modalcontenedormicu").click(function(e){
     e.stopPropagation();
 });
+$("#modalcontenedorfeli").click(function(e){
+    e.stopPropagation();
+});
+$("#modalcontenedorpiki").click(function(e){
+    e.stopPropagation();
+});
+$("#modalcontenedormaria").click(function(e){
+    e.stopPropagation();
+});
 $("#botoncerrar").click(function(e){
     $('#modalcontenedor').hide();
 });
@@ -148,6 +181,15 @@ $("#botoncerrarmicu").click(function(e){
 });
 $("#botoncerrarlucy").click(function(e){
     $('#modalcontenedorlucy').hide();
+});
+$("#botoncerrarpiki").click(function(e){
+    $('#modalcontenedorpiki').hide();
+});
+$("#botoncerrarfeli").click(function(e){
+    $('#modalcontenedorfeli').hide();
+});
+$("#botoncerrarmaria").click(function(e){
+    $('#modalcontenedormaria').hide();
 });
 
 $("#okdeerror").click(function(e){
