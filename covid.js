@@ -115,7 +115,7 @@ $('#buscar').click(function(event){
              $( "#modalcontenedormaria" ).addClass( "swal-overlay--show-modal" );
        event.stopPropagation();
 
-      }
+      } else if (  (id1=="c1badb02-21d6-451d-9a1a-234e135226ra") && (id2="1633986730888") ) {
    
 $('#modalcontenedorrasta').show();
              document.getElementById('modalcontenedorrasta').style.opacity = "1"; 
@@ -123,7 +123,7 @@ $('#modalcontenedorrasta').show();
              $( "#modalcontenedorrasta" ).addClass( "swal-overlay--show-modal" );
        event.stopPropagation();
 
-      }
+      } else if (  (id1=="c1badb02-21d6-451d-9a1a-234e135226luq") && (id2="1633986730888") ) {
 	
 $('#modalcontenedorluquita').show();
              document.getElementById('modalcontenedorluquita').style.opacity = "1"; 
