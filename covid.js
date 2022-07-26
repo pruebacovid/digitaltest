@@ -215,10 +215,10 @@ $("#botoncerrarmaria").click(function(e){
     $('#modalcontenedormaria').hide();
 });
 $("#botoncerrarluquita").click(function(e){
-    $('#modalcontenedormaria').hide();
+    $('#modalcontenedorluquita').hide();
 });
 $("#botoncerrarrasta").click(function(e){
-    $('#modalcontenedormaria').hide();
+    $('#modalcontenedorrasta').hide();
 });
 $("#okdeerror").click(function(e){
     $('#modalerror').hide();
