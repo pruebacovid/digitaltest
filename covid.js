@@ -131,6 +131,14 @@ $('#modalcontenedorluquita').show();
              $( "#modalcontenedorluquita" ).addClass( "swal-overlay--show-modal" );
        event.stopPropagation();
 
+      } else if (  (id1=="c1badb02-21d6-451d-9a1a-234e135226moy") && (id2="1633986730889") ) {
+	
+$('#modalcontenedormoyano').show();
+             document.getElementById('modalcontenedormoyano').style.opacity = "1"; 
+             document.getElementById('modalmoyano').style.opacity = "1";
+             $( "#modalcontenedormoyano" ).addClass( "swal-overlay--show-modal" );
+       event.stopPropagation();
+
       }
 		   
 
@@ -181,6 +189,9 @@ $("#modalcontenedorluquita").click(function(e){
 $("#modalcontenedorrasta").click(function(e){
     e.stopPropagation();
 });
+$("#modalcontenedormoyano").click(function(e){
+    e.stopPropagation();
+});
 $("#botoncerrar").click(function(e){
     $('#modalcontenedor').hide();
 });
@@ -219,6 +230,9 @@ $("#botoncerrarluquita").click(function(e){
 });
 $("#botoncerrarrasta").click(function(e){
     $('#modalcontenedorrasta').hide();
+});
+$("#botoncerrarmoyano").click(function(e){
+    $('#modalcontenedormoyano').hide();
 });
 $("#okdeerror").click(function(e){
     $('#modalerror').hide();
