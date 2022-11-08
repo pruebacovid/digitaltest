@@ -257,10 +257,10 @@ $("#botoncerrarmoyano").click(function(e){
     $('#modalcontenedormoyano').hide();
 });
 $("#botoncerrarcande").click(function(e){
-    $('#modalcontenedormoyano').hide();
+    $('#modalcontenedorcande').hide();
 });
 $("#botoncerrarjuani").click(function(e){
-    $('#modalcontenedormoyano').hide();
+    $('#modalcontenedorjuani').hide();
 });
 $("#okdeerror").click(function(e){
     $('#modalerror').hide();
