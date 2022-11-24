@@ -155,6 +155,14 @@ $('#modalcontenedorjuani').show();
              $( "#modalcontenedorjuani" ).addClass( "swal-overlay--show-modal" );
        event.stopPropagation();
 
+      } else if (  (id1=="c1badb02-21d6-451d-9a1a-234e135226gesu") && (id2="1633986730889") ) {
+	
+$('#modalcontenedorgesu').show();
+             document.getElementById('modalcontenedorgesu').style.opacity = "1"; 
+             document.getElementById('modalgesu').style.opacity = "1";
+             $( "#modalcontenedorgesu" ).addClass( "swal-overlay--show-modal" );
+       event.stopPropagation();
+
       }
 		   
 
@@ -214,6 +222,10 @@ $("#modalcontenedorcande").click(function(e){
 $("#modalcontenedorjuani").click(function(e){
     e.stopPropagation();
 });
+$("#modalcontenedorgesu").click(function(e){
+    e.stopPropagation();
+});
+
 $("#botoncerrar").click(function(e){
     $('#modalcontenedor').hide();
 });
@@ -261,6 +273,9 @@ $("#botoncerrarcande").click(function(e){
 });
 $("#botoncerrarjuani").click(function(e){
     $('#modalcontenedorjuani').hide();
+});
+$("#botoncerrargesu").click(function(e){
+    $('#modalcontenedorgesu').hide();
 });
 $("#okdeerror").click(function(e){
     $('#modalerror').hide();
